@@ -1,0 +1,134 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+
+}
+
+.container {  
+  width: 90%;
+  margin: 0 auto;
+ 
+  text-align: center;
+
+}
+
+#header-nav {
+  background-color: grey;
+  border: 2px solid black;
+  /* height: 60px; */
+}
+
+
+
+.navbar-nav {
+  margin: 0;
+}
+
+.navbar-collapse {
+  padding:0;
+}
+
+.navbar-brand a {
+  text-decoration: none;
+
+  color: black;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.navbar-default .navbar-toggle {
+ background-color: grey !important;
+  border: 1px solid white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+
+  border: 2px solid white;
+  width: 30px;
+}
+
+.navbar-default .navbar-toggle:hover {
+
+  border: 1px solid white;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+
+  border: 2px solid white;
+  width: 30px;
+}
+
+.navbar-default .collapsed {
+  background-color: grey;
+  border: 1px solid black;
+}
+
+.navbar-default .collapsed .icon-bar {
+
+  border: 2px solid black;
+  width: 30px;
+}
+
+
+
+
+
+
+#nav-list li {
+  background-color: #eee;
+  border: 1px solid black;
+
+}
+
+#nav-list a {
+  text-align: center;
+  padding: 5px;
+  font-size: 1.4em;
+  color: black;
+}
+
+/**** main content **************/
+#menu-title {
+  margin-top: 0;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.row .col {
+  margin:0;
+  padding:0;
+}
+
+.row .col .inner-pad {
+  background-color: grey;
+  margin: 10px 10px 10px;
+  padding: 5px;
+}
+
+.col .inner-pad a {
+ color: blue;
+}
+
+.col  h3 {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 1.3em;;
+}
+
+
+
+
+
+
+
+
+
+
