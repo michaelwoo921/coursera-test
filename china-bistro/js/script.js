@@ -39,6 +39,7 @@ var insertHtml = function (selector, html) {
   targetElem.innerHTML = html;
 };
 
+
 // Show loading icon inside element identified by 'selector'.
 var showLoading = function (selector) {
   var html = "<div class='text-center'>";
